@@ -1,0 +1,11 @@
+id = "magical"
+name = "Magical Language Support"
+description = "Syntax highlighting for the Magical card game configuration language"
+version = "0.1.0"
+schema_version = 1
+authors = ["sneakycrow <contact@sneakycrow.dev>"]
+repository = "https://github.com/sneakycrow/zed-magical"
+
+[grammars.magical]
+repository = "https://github.com/sneakycrow/tree-sitter-magical"
+rev = "main"
