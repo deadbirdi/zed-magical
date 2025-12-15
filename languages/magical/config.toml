@@ -1,5 +1,5 @@
 name = "Magical"
-grammar = "javascript"
+grammar = "magical"
 path_suffixes = ["mgcl"]
 line_comments = ["// "]
 tab_size = 2
