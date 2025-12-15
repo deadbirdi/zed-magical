@@ -5,6 +5,7 @@ version = "0.1.0"
 schema_version = 1
 authors = ["deadbirdi <contact@deadbirdi.dev>"]
 repository = "https://github.com/deadbirdi/zed-magical"
+languages = ["languages/magical"]
 
 [grammars.magical]
 repository = "https://github.com/deadbirdi/tree-sitter-magical"
