@@ -20,3 +20,6 @@ Thumbs.db
 
 # Just command runner
 .just/
+
+# Generated Files
+grammars/
