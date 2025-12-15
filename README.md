@@ -1,6 +1,6 @@
 # Magical Language Support for Zed
 
-A syntax highlighting extension for the [Magical](https://github.com/sneakycrow/mgcl) card game configuration language in [Zed editor](https://zed.dev).
+A syntax highlighting extension for the [Magical](https://github.com/deadbirdi/mgcl) card game configuration language in [Zed editor](https://zed.dev).
 
 ## Features
 
@@ -24,7 +24,7 @@ A syntax highlighting extension for the [Magical](https://github.com/sneakycrow/
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/sneakycrow/zed-magical.git
+   git clone https://github.com/deadbirdi/zed-magical.git
    ```
 
 2. Copy to your Zed extensions directory:
@@ -136,7 +136,7 @@ Add to your `keymap.json`:
 
 ## Development
 
-This extension uses the [tree-sitter-magical](https://github.com/sneakycrow/tree-sitter-magical) grammar for parsing and syntax highlighting.
+This extension uses the [tree-sitter-magical](https://github.com/deadbirdi/tree-sitter-magical) grammar for parsing and syntax highlighting.
 
 ### Building
 
@@ -152,7 +152,7 @@ Test the extension with these sample files:
 
 ```bash
 # Clone the main language repository
-git clone https://github.com/sneakycrow/mgcl.git
+git clone https://github.com/deadbirdi/mgcl.git
 
 # Open test files in Zed
 zed mgcl/examples/simple_cards.mgcl
@@ -199,7 +199,7 @@ zed-magical/
 
 ### Grammar Issues
 
-If syntax highlighting seems wrong, check the [Tree-sitter grammar](https://github.com/sneakycrow/tree-sitter-magical) for updates.
+If syntax highlighting seems wrong, check the [Tree-sitter grammar](https://github.com/deadbirdi/tree-sitter-magical) for updates.
 
 ## Contributing
 
@@ -218,9 +218,8 @@ If syntax highlighting seems wrong, check the [Tree-sitter grammar](https://gith
 
 ## Related Projects
 
-- [**Magical Language**](https://github.com/sneakycrow/mgcl) - Main language implementation
-- [**Tree-sitter Grammar**](https://github.com/sneakycrow/tree-sitter-magical) - Parsing grammar
-- [**Language Specification**](https://github.com/sneakycrow/mgcl/blob/main/SPEC.md) - Complete language spec
+- [**Magical Language**](https://github.com/deadbirdi/mgcl) - Main language implementation
+- [**Tree-sitter Grammar**](https://github.com/deadbirdi/tree-sitter-magical) - Parsing grammar
 
 ## License
 
@@ -228,6 +227,6 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 ## Support
 
-- **Issues**: [GitHub Issues](https://github.com/sneakycrow/zed-magical/issues)
-- **Language Spec**: [Magical Documentation](https://github.com/sneakycrow/mgcl)
+- **Issues**: [GitHub Issues](https://github.com/deadbirdi/zed-magical/issues)
+- **Magical Documentation**: [Main Repository](https://github.com/deadbirdi/mgcl)
 - **Zed Editor**: [Zed Documentation](https://zed.dev/docs)
